@@ -9,6 +9,7 @@ public final class ImmutableDemo {
 	private final String name;
 	private final int rollNo;
 	private final Map<String, String > metadata;
+	
 	public ImmutableDemo(String name, int rollNo, Map<String, String> metadata) {
 		super();
 		this.name = name;
