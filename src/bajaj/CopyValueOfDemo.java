@@ -5,5 +5,7 @@ public class CopyValueOfDemo {
 		String s="ajay";
 		String valueOf = String.valueOf(true);
 		System.out.println(valueOf);
+		
+		//s.copyValueOf();
 	}
 }

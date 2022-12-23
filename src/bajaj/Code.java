@@ -9,7 +9,7 @@ public class Code {
 	            System.out.print(a[i]+ " " );
 	        }
 	        while(j<a.length) {
-	            int product = 1;
+	        	 int product = 1;
 	            for(int i=0;i<a.length;i++) {
 	                if(i==j)
 	                    continue;

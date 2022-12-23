@@ -12,10 +12,10 @@ public class RepeatedSubSequence {
          int count = 0;
         
      // First Way
-         System.out.println(lastIndex != -1);//true
-         while (lastIndex != -1) {
-             
-             lastIndex = str1.indexOf(str2, lastIndex);
+//         System.out.println(lastIndex != -1);//true
+//         while (lastIndex != -1) {
+//             
+//             lastIndex = str1.indexOf(str2, lastIndex);
             
 //             System.out.println(lastIndex);
 //
@@ -23,8 +23,8 @@ public class RepeatedSubSequence {
 //                 count++;
 //                 lastIndex += str2.length();
 //             }
-         }
-         System.out.println(count);
+//         }
+        // System.out.println(count);
          
          //Second Way
        System.out.println("Count of occurrences of a substring recursively are: "+subsrting_rec(str1, str2));

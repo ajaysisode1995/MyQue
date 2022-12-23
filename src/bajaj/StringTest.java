@@ -7,19 +7,19 @@ public class StringTest {
 		
 		int countOccurrences = countOccurrences(str, l);
 		System.out.println(countOccurrences);
-//		String[] s = str.split("");
-//		for (int i = 0; i < s.length; i++) {
-//			int count=0;
-//			for (int j = 0; j < s.length; j++) {
-//				if (s[i].equals(s[j])) {
-//					count++;
-//					s[j]="0";
-//				}
-//			}
-//			if (count>1 && s[i]!="0" ) {
-//				System.out.println(s[i]+"::"+count);
-//			}
-//		}
+		String[] s = str.split("");
+		for (int i = 0; i < s.length; i++) {
+			int count=0;
+			for (int j = 0; j < s.length; j++) {
+				if (s[i].equals(s[j])) {
+					count++;
+					s[j]="0";
+				}
+			}
+			if (count>1 && s[i]!="0" ) {
+				System.out.println(s[i]+"::"+count);
+			}
+		}
 		
 	}
 	static int countOccurrences(String s, int K)
