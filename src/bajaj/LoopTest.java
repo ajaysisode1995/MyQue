@@ -9,16 +9,16 @@ public class LoopTest {
 			for (int j = 0; j < a.length; j++) {
 				
 				for (int j2 = 0; j2 < a.length; j2++) {
-					System.out.println("A");
 					
-					if (a[j]==a[j2]) {
-						continue;
-					}
-					else {
+					if (a[j]*a[j2]==a[0]) {
 						break;
 					}
+					
 				}
+				
 			}
+			
 		}
 	}
 }
+

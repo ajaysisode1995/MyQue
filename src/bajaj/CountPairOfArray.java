@@ -10,6 +10,7 @@ public class CountPairOfArray {
 		  	for(int j=0;j<a.length;j++){
 		  		if(a[i]+a[j]==10){
 				 pair++;
+				 System.out.println(a[i]);
 				}
 		    }
 		 }

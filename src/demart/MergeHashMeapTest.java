@@ -21,17 +21,11 @@ public class MergeHashMeapTest {
         d.put("LN", "STREET");
         d.put("CT", "PUNE");
         
-        
-        Map<String, String> map3=new HashMap<>(f);
+       Map<String, String> map3=new HashMap<>();
+        map3.putAll(f);
         map3.putAll(d);
-        Set<Entry<String,String>> entrySet = map3.entrySet();
-        Iterator<Entry<String, String>> iterator = entrySet.iterator();
-        while (iterator.hasNext()) {
-			
-			
-			
-		}
-        	
+        System.out.println(map3);
+        
         }
 	}
 

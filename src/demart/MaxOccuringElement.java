@@ -1,6 +1,7 @@
 package demart;
 import java.util.ArrayDeque;
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
 import java.util.Queue;
@@ -16,15 +17,8 @@ public class MaxOccuringElement {
 List<String> list = 
 	Arrays.asList
 	("pineapple", "orange", "pineapple", "guava", "apple", "orange", "apple", "apple");
-	
-	
-	
-	
-	
-	
-    
-//  
-   Set<String> collect = list.stream()
+	//  
+  Set<String> collect = list.stream()
    .collect(Collectors.groupingBy(Function.identity()
            , Collectors.counting()))    
    .entrySet().stream()                
@@ -34,22 +28,7 @@ List<String> list =
    
    collect.forEach(x->System.out.println(x));
 
-//Set<String> collect1 = list
-//.stream()
-//.collect(Collectors.groupingBy(Function.identity(),Collectors.counting()))
-//.entrySet()
-//.stream()
-//.filter(entry->{
-//	if (entry.setValue(entry.)) {
-//		
-//	}
-//	return true;
-//})
-//.map(Map.Entry::getKey)
-//.collect(Collectors.toSet());
-//
-//
-//
-//collect1.forEach(x->System.out.println(x));
+   
+	   
 	}
 }
